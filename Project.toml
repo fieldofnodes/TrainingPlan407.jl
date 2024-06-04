@@ -3,6 +3,19 @@ uuid = "24e7da22-4618-481d-afeb-aae44a3f6977"
 authors = ["Jonathan Miller jonathan.miller@fieldofnodes.com"]
 version = "1.0.0-DEV"
 
+[deps]
+BaseTrainingPlan = "040d1834-f38b-4f45-a436-19b9da0e3da9"
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+Chain = "8be319e6-bccf-4806-a6f7-6fae938471bc"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DataFramesMeta = "1313f7d8-7da2-5740-9ea0-a2ca25f37964"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+TrainingAssessment = "858d5524-ebe6-4950-8c89-a6cc5a66934a"
+TrainingBook = "2341ea87-aabe-4153-929b-2a5b9716355c"
+TrainingContent = "93010b99-796c-4ee1-962b-d06f04731a5c"
+TrainingLog = "ec4de223-759c-4ccd-b699-4f12753461be"
+TrainingPlan = "448bc093-6e26-4f16-a79a-87e8426e863d"
+
 [compat]
 julia = "1.6.7"
 
